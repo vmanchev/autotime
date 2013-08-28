@@ -6,6 +6,7 @@ updating human readable format ("2 days, 19 minutes, 36 seconds ago John said:"
 ## Basic usage:
 
 1. Simple html code:
+    <!-- language: lang-html -->
     <ul>
         <li data-autotime="1377674598"><span class="autotime-updated"></span> Peter said: Hello!</li>
 	<li data-autotime="1377686962"><span class="autotime-updated"></span> John said: Hi!</li>
@@ -14,6 +15,8 @@ updating human readable format ("2 days, 19 minutes, 36 seconds ago John said:"
 
 
 2. Add some Javascript code. Put jQuery at the top, than jquery.autotime.js
+
+    <!-- language: lang-html -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script src="jquery.autotime.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -40,7 +43,7 @@ Name the file after the language, for example, the translation in Spanish should
 
 <pre>jquery.autotime.es.js</pre>
 
-
+    <!-- language: lang-js -->
     $.fn.autotime.labels = {
 		prefixAgo: '',
 		suffixAgo: '',
