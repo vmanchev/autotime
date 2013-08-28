@@ -12,14 +12,14 @@ Check the related [Wiki page](https://github.com/vmanchev/autotime/wiki/Usage-ex
     ```html
     <ul>
         <li data-autotime="1377674598"><span class="autotime-updated"></span> Peter said: Hello!</li>
-	<li data-autotime="1377686962"><span class="autotime-updated"></span> John said: Hi!</li>
+        <li data-autotime="1377686962"><span class="autotime-updated"></span> John said: Hi!</li>
         <li data-autotime="1377082162"><span class="autotime-updated"></span> Olivia said: Who's there?</li>
     </ul>
     ```
 
 2. Add some Javascript code. Put jQuery at the top, than jquery.autotime.js
 
-    <!-- language: lang-html -->
+    ```html
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js" type="text/javascript"></script>
     <script src="jquery.autotime.js" type="text/javascript"></script>
     <script type="text/javascript">
@@ -27,8 +27,9 @@ Check the related [Wiki page](https://github.com/vmanchev/autotime/wiki/Usage-ex
             $("[data-autotime]").autotime({
                 refresh_time: 1
             });
-	});
+        });
     </script>
+    ```
 
 
 3. Now you should see something like:
@@ -46,7 +47,7 @@ Name the file after the language, for example, the translation in Spanish should
 
 <pre>jquery.autotime.es.js</pre>
 
-    <!-- language: lang-js -->
+    ```javascript
     $.fn.autotime.labels = {
 		prefixAgo: '',
 		suffixAgo: '',
@@ -63,5 +64,6 @@ Name the file after the language, for example, the translation in Spanish should
 		year:      '',
 		years:     ''
     };
+    ```
 
 
