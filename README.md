@@ -47,7 +47,7 @@ Name the file after the language, for example, the translation in Spanish should
 
 <pre>jquery.autotime.es.js</pre>
 
-    ```javascript
+```javascript
     $.fn.autotime.labels = {
         prefixAgo: '',
         suffixAgo: '',
@@ -64,6 +64,6 @@ Name the file after the language, for example, the translation in Spanish should
         year:      '',
         years:     ''
     };
-    ```
+```
 
 
