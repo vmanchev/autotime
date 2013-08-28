@@ -49,20 +49,20 @@ Name the file after the language, for example, the translation in Spanish should
 
     ```javascript
     $.fn.autotime.labels = {
-		prefixAgo: '',
-		suffixAgo: '',
-		hour:      '',
-		hours:     '',
-		minute:    '',
-		minutes:   '',
-		second:    '',
-		seconds:   '',
-		day:       '',
-		days:      '',
-		month:     '',
-		months:    '',
-		year:      '',
-		years:     ''
+        prefixAgo: '',
+        suffixAgo: '',
+        hour:      '',
+        hours:     '',
+        minute:    '',
+        minutes:   '',
+        second:    '',
+        seconds:   '',
+        day:       '',
+        days:      '',
+        month:     '',
+        months:    '',
+        year:      '',
+        years:     ''
     };
     ```
 
